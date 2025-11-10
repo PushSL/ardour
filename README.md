@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Identify the path for your Ardour themes folder. On linux it's usually in '~/.config/Ardour/Contents/Resources/themes/', on macos it's in '/Applications/Ardour8.app/Contents/Resources/themes/'.
+1. Identify the path for your Ardour themes folder. On linux it's usually in '~/.config/Ardour/Contents/Resources/themes/' or '/usr/share/ardour8/themes/', on macos it's in '/Applications/Ardour8.app/Contents/Resources/themes/'.
 2. Download the flavour files to the Ardour themes folder with the following command, where 'path/to/ardour/themes' must be replaced by the actual path to the Ardour themes folder in your system:
 ```bash
 curl -LO --output-dir path/to/ardour/themes https://github.com/catppuccin/ardour/raw/main/catppuccin_latte-ardour.colors \
